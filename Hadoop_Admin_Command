@@ -1,0 +1,21 @@
+⚙️ Hadoop Cluster and Admin Commands
+
+hadoop version – Show Hadoop version
+
+start-dfs.sh – Start HDFS daemons (NameNode, DataNodes)
+
+stop-dfs.sh – Stop HDFS daemons
+
+start-yarn.sh – Start YARN daemons (ResourceManager, NodeManager)
+
+stop-yarn.sh – Stop YARN daemons
+
+hdfs dfsadmin -report – HDFS usage and live datanode status
+
+hdfs dfsadmin -safemode get – Check safemode status
+
+hdfs dfsadmin -safemode enter – Force safemode
+
+hdfs dfsadmin -safemode leave – Leave safemode
+
+hdfs dfsadmin -refreshNodes – Refresh the list of datanodes
