@@ -1,0 +1,33 @@
+📁 HDFS File Management (Use with hadoop fs or hdfs dfs)
+
+hadoop fs -ls / – List directory in HDFS
+
+hadoop fs -mkdir /path/dir – Create directory in HDFS
+
+hadoop fs -put localfile /hdfs/path/ – Upload file from local to HDFS
+
+hadoop fs -get /hdfs/file ./localpath/ – Download file from HDFS to local
+
+hadoop fs -copyFromLocal localfile /hdfs/path/ – Copy local file to HDFS
+
+hadoop fs -copyToLocal /hdfs/file ./ – Copy HDFS file to local
+
+hadoop fs -rm /hdfs/file – Remove a file in HDFS
+
+hadoop fs -rm -r /hdfs/dir – Remove directory recursively
+
+hadoop fs -mv /hdfs/old /hdfs/new – Move or rename a file/directory
+
+hadoop fs -cat /hdfs/file – Display contents of a file
+
+hadoop fs -du -h /hdfs/dir – Disk usage in human-readable format
+
+hadoop fs -chmod 755 /hdfs/dir – Change permissions
+
+hadoop fs -chown user:group /hdfs/file – Change ownership
+
+hadoop fs -touchz /hdfs/file – Create an empty file
+
+hadoop fs -tail -f /hdfs/file – Follow file logs like tail
+
+
