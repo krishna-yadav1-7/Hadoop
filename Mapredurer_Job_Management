@@ -1,0 +1,11 @@
+📦 MapReduce and Job Management
+
+hadoop jar job.jar input output – Run a MapReduce job
+
+yarn application -list – List running YARN applications
+
+yarn application -kill <AppID> – Kill a YARN job
+
+mapred job -list – List MapReduce jobs (older versions)
+
+mapred job -kill <job_id> – Kill a specific MapReduce job
