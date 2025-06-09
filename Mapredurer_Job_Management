@@ -1,11 +1,20 @@
 📦 MapReduce and Job Management
 
 hadoop jar job.jar input output – Run a MapReduce job
-
 yarn application -list – List running YARN applications
-
 yarn application -kill <AppID> – Kill a YARN job
-
 mapred job -list – List MapReduce jobs (older versions)
-
 mapred job -kill <job_id> – Kill a specific MapReduce job
+
+
+🧪 File System Health Checks
+hdfs fsck / – Check file system consistency
+hdfs fsck / -blocks -locations -files – Detailed block info
+
+
+🧰 Advanced HDFS Commands
+hdfs dfs -count /dir – Show count of files, directories, and bytes
+hdfs dfs -cp /source /destination – Copy file within HDFS
+hdfs dfs -expunge – Empty the trash
+hdfs dfs -stat /file – Print file statistics
+hdfs dfs -text /file – View sequence or Avro file as plain text
